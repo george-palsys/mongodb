@@ -1,0 +1,87 @@
+#####mongo的資料####
+[{
+  "_id": {
+    "$oid": "61f0ab5a62a47b6428dc67df"
+  },
+  "magic": "atMSG",
+  "headers": null,
+  "messageSchema": null,
+  "type": "DT",
+  "message": {
+    "headers": {
+      "streamPosition": "010000000000019A3800000000000C1601|020000000000000000000000000BDBF69D",
+      "changeMask": "03",
+      "transactionLastEvent": true,
+      "changeSequence": "20220126015128000000000000000000065",
+      "transactionEventCounter": 1,
+      "operation": "INSERT",
+      "transactionId": "0000000000000000000000000006C3C1",
+      "timestamp": "1970-01-01T00:00:00.000",
+      "columnMask": "03"
+    },
+    "data": {
+      "ID": 10,
+      "NAME": "George1"
+    },
+    "beforeData": null
+  },
+  "messageSchemaId": "2E683502D90812DB5E0EE7F6FFBF40F7"
+},{
+  "_id": {
+    "$oid": "61f0ac4d62a47b6428dc67e1"
+  },
+  "magic": "atMSG",
+  "headers": null,
+  "messageSchema": null,
+  "type": "DT",
+  "message": {
+    "headers": {
+      "streamPosition": "010000000000019A3900000000000C1603|020000000000000000000000000BDBF72C",
+      "changeMask": "00",
+      "transactionLastEvent": true,
+      "changeSequence": "20220126015908000000000000000000077",
+      "transactionEventCounter": 1,
+      "operation": "DELETE",
+      "transactionId": "0000000000000000000000000006C3C2",
+      "timestamp": "2022-01-26T01:51:28.000",
+      "columnMask": "03"
+    },
+    "data": {
+      "ID": 10,
+      "NAME": "George1"
+    },
+    "beforeData": null
+  },
+  "messageSchemaId": "2E683502D90812DB5E0EE7F6FFBF40F7"
+},
+
+#####以下是增加了Handler在mongo的資料####
+
+{
+  "_id": {
+    "$oid": "61f0c37462a47b6428dc67e2"
+  },
+  "magic": "atMSG",
+  "headers": null,
+  "messageSchema": null,
+  "type": "DT",
+  "message": {
+    "headers": {
+      "streamPosition": "010000000000019A3C00000000000C1609|020000000000000000000000000BDBFC9A",
+      "changeMask": "03",
+      "transactionLastEvent": true,
+      "changeSequence": "20220126033757000000000000000000089",
+      "transactionEventCounter": 1,
+      "operation": "INSERT",
+      "transactionId": "0000000000000000000000000006C599",
+      "timestamp": "2022-01-26T01:59:08.000",
+      "columnMask": "03"
+    },
+    "data": {
+      "ID": 20,
+      "NAME": "George20"
+    },
+    "beforeData": null
+  },
+  "messageSchemaId": "2E683502D90812DB5E0EE7F6FFBF40F7"
+}]
