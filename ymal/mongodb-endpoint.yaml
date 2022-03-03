@@ -1,0 +1,13 @@
+kind: "Endpoints"
+apiVersion: "v1"
+metadata:
+  name: "mongodb" 
+subsets: 
+  -
+    addresses:
+      -
+        ip: "10.107.88.250" 
+    ports:
+      -
+        port: 8080 
+        name: "ops"

@@ -1,0 +1,21 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app: mongodb
+  name: mongodb
+  namespace: mongodb
+spec:
+  host: ""
+  port:
+    targetPort: 27017
+  to:
+    kind: Service
+    name: mongodb
+    weight: 100
+status:
+  ingress:
+  - conditions:
+    - status: "True"
+      type: Admitted
